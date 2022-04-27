@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="./css/base.css">
+  <link rel="stylesheet" type="text/css" href="./css/register.css">
+  <script src="./js/flexible.min.js"></script>
+  <title>注册</title>
+</head>
+<body>
+<div class="top">
+  <img src="images/step1.png" />
+  <div class="step2"></div>
+  <img class="img3" style="height: auto;" src="images/step3.png" />
+  <div class="step4">邀请新用户还有丰厚佣金可拿，轻松赚钱到手麻！</div>
+  <img class="img5" src="images/step5.png" />
+</div>
+<div class="container">
+  <div class="content">
+    <ul>
+      <li>
+        <span>邮箱</span>
+        <div><input type="text" class="email" placeholder="请输入邮箱号" autocomplete="off" /></div>
+      </li>
+      <li>
+        <span>密码</span>
+        <div>
+          <input type="password" class="password" placeholder="请输入密码" autocomplete="off"/>
+          <a id="changePassword"><img src="images/icon-close.png"/></a>
+        </div>
+      </li>
+      <li>
+        <span>手机号</span>
+        <div><input type="text" name="phone" class="phone" placeholder="请输入手机号" autocomplete="off" /></div>
+      </li>
+      <li>
+        <span>验证码</span>
+        <div>
+          <input type="text" placeholder="输入验证码" class="captcha" style="width: 1.44rem;" autocomplete="off" />
+          <button id="captcha" onclick="getCaptcha()"><div style="margin-top: -0.07rem;">获取验证码</div></button>
+        </div>
+      </li>
+      <li>
+        <span>邀请码</span>
+        <div style="background-color: #E7E7E7;"><input type="text" class="invite_code" readonly/></div>
+      </li>
+    </ul>
+
+    <button class="register" onclick="register()"><div>立即注册</div></button>
+
+    <div class="desc">
+      点击注册即表示同意<a href="service.html">《服务协议》</a><a href="privacy.html">《隐私政策》</a>
+    </div>
+
+      <a href="javascript:;" onclick="downloadUrl()" style="text-decoration: revert;">
+        <div class="go-login">
+          已有账号? 点这里直接下载APP
+        </div>
+      </a>
+
+    <div class="footer" style="color: #ACACAC;font-size: 0.25rem;margin: 0.3rem auto;margin-top: 0.6rem;">
+      注：用户必须完成 网页注册+首次登录 才算一次完整的有效邀请绑定，且注册登录有以下限制：<br/>
+      1.网页注册同一IP下（同一wifi网络下也属于同一IP）24小时内限制5个有效邀请码绑定，超过5个将被视为无效绑定；<br/>
+      2.注册后的登录的设备必须为之前未注册或登录过元链的新设备，否则将被视为无效绑定；<br/>
+      请用户悉知，严格按照该规定进行邀请绑定，以免绑定邀请码失败。
+    </div>
+  </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/new_alert.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+<script>
+
+</script>
+</html>
