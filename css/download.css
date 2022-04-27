@@ -1,12 +1,12 @@
-html{height: 100%;}
+
 body{width: 7.5rem;margin: 0 auto;background: url("../images/download-bg.png") 0 0 no-repeat;
     background-size: cover;}
 input[type=text]::placeholder{color: #ACACAC;}
-.top{margin-top: 0.57rem;text-align: center;color: white;}
+.top{width: 6.57rem;margin: 0.57rem auto 0 auto;text-align: center;color: white;}
 .top img:first-child{width: 2.08rem;height: 0.54rem;}
 .top .img3{width: 6.52rem;height: 0.74rem;}
 .top .step2{font-size: 0.29rem;margin: 0.15rem auto 0.22rem auto;font-weight: bold;}
-.top .step4{font-size: 0.29rem;font-weight: bold;line-height: 0.39rem;margin: 0.24rem auto 0.18rem auto;}
+.top .step4{margin: 0 auto 0.18rem auto;font-size: 0.36rem;font-weight: normal;line-height: 0.52rem;}
 .top .img5{width: 5.29rem;height: 0.36rem;}
 .container{margin-top: 5.76rem;padding-bottom: 2rem;}
 .container button{display: block;margin: 0 auto;font-size: 0.27rem;color: #FFFFFF;width: 5.47rem;height: 1.04rem;background: url("../images/download-button-bg.png") 0 0 no-repeat;background-size: cover;}
