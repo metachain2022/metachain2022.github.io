@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="./css/base.css">
+  <link rel="stylesheet" type="text/css" href="./css/download.css">
+  <script src="./js/flexible.min.js"></script>
+  <title>下载</title>
+</head>
+<body>
+<div class="top">
+  <img src="images/step1.png" />
+  <div class="step2">2022币圈最大项目火爆来袭</div>
+  <img class="img3" src="images/step3.png" />
+  <div class="step4">体验高速加速器的同时轻松赚钱到手麻,<br/>日入过万不是梦!</div>
+  <img class="img5" src="images/step5.png" />
+</div>
+<div class="container">
+  <button onclick="androidPrompt()"><div>
+    <img src="images/icon-android.png"> <span>安卓下载</span>
+  </div></button>
+
+<!--  <button onclick="iosDownload()" style="margin-top: 0.1rem;">-->
+<!--    <div>-->
+<!--    <img src="images/icon-ios.png" style="width: 0.42rem;-->
+<!--    height: 0.42rem;-->
+<!--    margin-top: 0.19rem;-->
+<!--    margin-left: -0.1rem;"> <span>iOS下载</span>-->
+<!--  </div>-->
+<!--  </button>-->
+</div>
+
+<div class="footer">
+  <div class="footer-container">
+    <div class="share">
+      <h1 class="share-title">温馨提示</h1>
+      <h1 class="share-paragraph">
+        因元链加速器的特殊属性，Android安装时可能会被部分机型视为危险软件禁止安装，请参考以下方式安装软件：<br><br>
+
+        *华为手机需退出纯净模式后安装：<br>
+
+        您可通过以下任一方式退出纯净模式。<br>
+
+        1.请点击<i>设置</i>＞<i>系统和更新</i>＞<i>纯净模式</i>，点击退出；<br>
+
+        2.从屏幕顶部右侧下滑出<i>控制中心</i>，点击－<i>展开快捷开关栏</i>（取决于您的机型），关闭纯净模式。<br>
+
+        *其他品牌Android手机请忽略安全风险安装。<br>
+      </h1>
+
+      <button onclick="androidDownload()"><div>
+        <img src="images/icon-android.png"> <span>安卓下载</span>
+      </div></button>
+    </div>
+  </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/new_alert.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script>
+  function getQueryString(name) {
+    let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    let r = window.location.search.substr(1).match(reg);
+    if (r != null) {
+      return decodeURIComponent(r[2]);
+    };
+    return null;
+  }
+
+  function androidPrompt() {
+    $(".footer").show();
+  }
+
+  function androidDownload(){
+    location.href = "https://share.intlsourcetrading.com/android/"+getQueryString("channel")+"/download";
+  }
+  function iosDownload(){
+    location.href = "./ios/download.html";
+  }
+</script>
+</html>

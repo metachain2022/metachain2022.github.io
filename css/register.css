@@ -1,0 +1,33 @@
+
+body{width: 7.5rem;margin: 0 auto;background: url("../images/register-bg.png") 0 0 no-repeat;
+    background-size: cover;}
+input[type=text]::placeholder{color: #ACACAC;}
+input[type=password]::placeholder{color: #ACACAC;}
+.top{width: 6.57rem;margin: 0.57rem auto 0 auto;text-align: center;color: white;}
+.top img:first-child{width: 2.08rem;height: 0.54rem;}
+.top .img3{width: 6.52rem;height: 0.74rem;}
+.top .step2{font-size: 0.29rem;margin: 0.15rem auto 0.22rem auto;font-weight: bold;}
+.top .step4{margin: 0 auto 0.18rem auto;font-size: 0.36rem;font-weight: normal;line-height: 0.52rem;}
+.top .img5{width: 5.29rem;height: 0.36rem;}
+.container{width: 6.57rem;margin: 0.45rem auto;background-color: #FFFFFF;}
+.container .content{padding: 0.53rem 0.65rem 0.34rem 0.59rem;}
+.container ul li{font-size: 0.29rem;color: #282828;font-weight: 500;margin-bottom: 0.19rem;}
+.container ul li span{float: left;line-height: 0.83rem;color: #282828;}
+.container ul li > div{position: relative;margin-left: 1.07rem;height: 0.83rem;width: 4.24rem;border: 0.01rem solid #E5E5E5;border-radius: 0.1rem;}
+.container ul li input{line-height: 0.83rem;margin-left: 0.22rem;color: #282828;}
+.container ul li > div button{position: absolute;width: 2.18rem;height: 0.83rem;right: 0.03rem;top: 0.04rem;
+    font-size: 0.27rem;color: white;line-height: 0.83rem;
+    font-weight: 500;
+    background: url("../images/register-captcha-bg.png") 0 0 no-repeat;background-size: cover;}
+.container ul li button.disabled{
+    background: url("../images/register-captcha-no-bg.png") 0 0 no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+.container ul li a{position: absolute;height: 0.32rem;top: 0.3rem;right: 0.31rem;}
+.container ul li a img{height: 0.23rem;}
+.container .register{display: block;margin: 0.41rem auto 0.28rem auto;width: 5.45rem;height:1.01rem;font-size: 0.27rem;color: white;background: url("/images/register-button-bg.png") 0 0 no-repeat;background-size: cover;}
+.container .register div{margin-top: -0.15rem;}
+.container .desc{font-size: 0.25rem;color: #282828;margin: 0.28rem auto 0.5rem auto;text-align: center;}
+.container .desc a{color: #4562FF;cursor: pointer;}
+.container .go-login{display: block;font-size: 0.25rem;color: #2E52FC;text-align: center;cursor: pointer;}

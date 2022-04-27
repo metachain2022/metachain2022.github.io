@@ -1,0 +1,24 @@
+html{height: 100%;}
+body{width: 7.5rem;margin: 0 auto;background: url("../images/download-bg.png") 0 0 no-repeat;
+    background-size: cover;}
+input[type=text]::placeholder{color: #ACACAC;}
+.top{margin-top: 0.57rem;text-align: center;color: white;}
+.top img:first-child{width: 2.08rem;height: 0.54rem;}
+.top .img3{width: 6.52rem;height: 0.74rem;}
+.top .step2{font-size: 0.29rem;margin: 0.15rem auto 0.22rem auto;font-weight: bold;}
+.top .step4{font-size: 0.29rem;font-weight: bold;line-height: 0.39rem;margin: 0.24rem auto 0.18rem auto;}
+.top .img5{width: 5.29rem;height: 0.36rem;}
+.container{margin-top: 5.76rem;padding-bottom: 2rem;}
+.container button{display: block;margin: 0 auto;font-size: 0.27rem;color: #FFFFFF;width: 5.47rem;height: 1.04rem;background: url("../images/download-button-bg.png") 0 0 no-repeat;background-size: cover;}
+.container button div{height: 1.04rem;width: 5.47rem;}
+.container button img{width: 0.4rem;height: 0.4rem;margin-top: 0.21rem;margin-right: 0.28rem;}
+.container button span{line-height: 0.82rem;}
+.footer{display: none;position: fixed;top: 0;left: 0;z-index: 99998;width: 100%;height: 100%;overflow: hidden;background-color: rgba(0, 0, 0, .6);}
+.footer .footer-container{background: #fff;margin: 100px auto;border-radius: 10px;width: 300px;height: 390px;}
+.footer .share{padding: 10px 20px;}
+.footer .share .share-title{font-size: 22px;text-align: center;font-weight: bold;color: #000;}
+.footer .share .share-paragraph {font-size: 14px;line-height: 20px;color: #000;margin-top: 15px;list-style: none;font-weight: normal;}
+.footer .share button{display: block;margin: 12px auto;margin-left: -5px;font-size:16px;color: #FFFFFF;width: 270px;height: 50px;background: url("../images/download-button-bg.png") 0 0 no-repeat;background-size: cover;}
+.footer .share button div{height: 50px;width: 270px;}
+.footer .share button img{width: 20px;height: 20px;margin-top: 10px;margin-right: 10px;}
+.footer .share button span{font-size: 15px;line-height: 40px;}
