@@ -9,12 +9,13 @@
   <title>注册</title>
 </head>
 <body>
-<div class="top">
+<div class="body">
+  <div class="top">
   <img src="images/step1.png" />
   <div class="step2"></div>
   <img class="img3" style="height: auto;" src="images/step3.png" />
   <div class="step4">邀请新用户还有丰厚佣金可拿，轻松赚钱到手麻！</div>
-  <img class="img5" src="images/step5.png" />
+  <!-- <img class="img5" src="images/step5.png" /> -->
 </div>
 <div class="container">
   <div class="content">
@@ -67,6 +68,11 @@
     </div>
   </div>
 </div>
+</div>
+
+<div class="prompt">
+  <img src="images/prompt.png" />
+</div>
 
 </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -74,6 +80,11 @@
 <script type="text/javascript" src="js/layer.js"></script>
 <script type="text/javascript" src="js/register.js"></script>
 <script>
-
+  var ua = navigator.userAgent.toLowerCase();
+  if (ua.match(/MicroMessenger/i) == "micromessenger" || ua.match(/QQ/i) == 'qq' || ua.match(/WeiBo/i)=="weibo"){
+    $(".prompt").show();
+  }else{
+    $(".prompt").hide();
+  }
 </script>
 </html>
