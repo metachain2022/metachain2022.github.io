@@ -81,9 +81,14 @@
 <script type="text/javascript" src="js/register.js"></script>
 <script>
   var ua = navigator.userAgent.toLowerCase();
-  if (ua.match(/MicroMessenger/i) == "micromessenger" || ua.match(/QQ/i) == 'qq' || ua.match(/WeiBo/i)=="weibo"){
-    $(".prompt").show();
-    $(".body").addClass("filter");
+
+  if(ua.indexOf("micromessenger")>-1 || ua.indexOf("weibo")>-1 || ua.indexOf("qq")>-1){
+    if (ua.indexOf("mqqbrowser")>-1 || ua.indexOf("qqtheme")>-1){
+      $(".prompt").hide();
+    }else {
+      $(".prompt").show();
+      $(".body").addClass("filter");
+    }
   }else{
     $(".prompt").hide();
   }
